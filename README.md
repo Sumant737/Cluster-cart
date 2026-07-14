@@ -1,6 +1,12 @@
-# ClusterCart: Smart Shopping Recommendations
+# 🛒 ClusterCart: Smart Shopping Recommendations
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![Flask](https://img.shields.io/badge/Framework-Flask-black)
+![Machine Learning](https://img.shields.io/badge/ML-K--Means-orange)
+![Database](https://img.shields.io/badge/Database-SQLite-lightgrey)
 
 ClusterCart is an intelligent shopping recommendation system that uses machine learning (K-means clustering) to personalize product recommendations based on user demographics and shopping behavior. The application analyzes user data to group them into clusters with similar characteristics and delivers tailored product suggestions from Amazon's marketplace.
+
 
 ## ✨ Features
 
@@ -20,6 +26,7 @@ ClusterCart is an intelligent shopping recommendation system that uses machine l
 - **Authentication**: Bcrypt password hashing
 - **Frontend**: HTML, CSS, JavaScript (Not included in this repo)
 
+
 ## 📋 Prerequisites
 
 Before running the application, make sure you have:
@@ -33,8 +40,8 @@ Before running the application, make sure you have:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/shyam1902005/CLUSTER_CART.git
-cd CLUSTER_CART
+git clone https://github.com/Sumant737/Cluster-cart.git
+cd Cluster-cart
 ```
 
 ### 2. Create a virtual environment
@@ -173,12 +180,17 @@ The application uses two SQLite databases:
 
 ## 📊 Machine Learning Model
 
-ClusterCart uses K-means clustering with the following features:
+ClusterCart uses K-means clustering to categorize users into four shopping behavior groups.
+
+Features used:
+
 - Age
 - Gender
-- Income
-- Location (one-hot encoded)
-- Shopping Frequency (one-hot encoded)
+- Annual Income
+- Location
+- Shopping Frequency
+
+The model assigns users to clusters and generates personalized product recommendations based on their cluster profile.
 
 ## 🔐 Security Features
 
@@ -231,8 +243,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 If you have any questions or feedback, please reach out at:
 
-- Email: your.email@example.com
-- GitHub: [Your GitHub Username](https://github.com/yourusername)
+- Email: patilsumant4@gmail.com
+- GitHub: Sumant737(https://github.com/Sumant737)
 
 ---
 
